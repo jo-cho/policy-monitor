@@ -10,7 +10,7 @@ from engine import prepare_policy, evaluate_post
 from pdf_support import PDFInputError
 from reporting import collection_rows, csv_bytes, export_report
 
-st.set_page_config(page_title='정책 비상등', page_icon='🚨', layout='wide')
+st.set_page_config(page_title='정책 모니터링', page_icon='🚨', layout='wide')
 
 
 def setting(name, default=''):
@@ -40,7 +40,7 @@ def show_error(exc, stage):
 
 
 st.caption('POLICY WATCH / 정책문서 기반 공개 게시물 검토')
-st.title('🚨 정책 비상등')
+st.title('🚨 정책 모니터링')
 st.write('정책문서를 기준으로 기사·블로그·SNS의 주장을 대조하고, 문서와 모순되는 정보를 찾아냅니다.')
 
 password = setting('APP_PASSWORD')
