@@ -1,0 +1,5 @@
+streamlit==1.64.0
+openai==2.54.0
+pydantic==2.13.5
+pypdf==6.10.0
+trafilatura==2.2.0
